@@ -24,7 +24,7 @@ body {
     font-weight: 300; }
     
     
-    p, {
+    p {
     font-weight: 300;
     color: #546E7A;
     user-select: none;
@@ -37,8 +37,8 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255); }
     
-    /* Navigation menu */
-    /* •••••••••••••••••••••••••••••••• */
+    /* Navigation  */
+   
     
     .menu {
     position: fixed;
@@ -81,7 +81,6 @@ body {
     }
     
     /* Panels Style*/
-    /* •••••••••••••••••••••••••••••••• */
     
     /* Common panel style */
     .panel {
@@ -101,7 +100,7 @@ body {
     background-color: #ECEFF1; }
     
     
-    /* panel content (only for animation delay after open) */
+    /* for animation delay after open */
     .panel__content {
     opacity: 0;
     will-change: margin-top;
@@ -115,8 +114,6 @@ body {
     opacity: 1;
     margin-top: 0; }
     
-    
-    /*  Specific "Home "panel */
     
     .panel#home {
     z-index: 1;
