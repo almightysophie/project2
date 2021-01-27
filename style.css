@@ -111,7 +111,7 @@ body {
     
     
     .panel#slice, .panel#slice1,.panel#slice2,.panel#slice3 {
-    background-color: #00acca;
+    background-color: #eb8613;
     transition: all 800ms cubic-bezier(0.190, 1.000, 0.560, 1.000);
     transform: translate3d( 0, -100%, 0 ); }
     
